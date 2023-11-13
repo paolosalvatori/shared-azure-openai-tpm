@@ -40,7 +40,7 @@ serviceAccountName="openai-sa"
 federatedIdentityName="OpenAiWorkloadFederatedIdentity"
 
 # Azure OpenAI Service
-openAiNames=("TanOpenAi" "BaboOpenAi")
+openAiNames=("BetaOpenAI" "AlphaOpenAI")
 openAiResourceGroupNames=("TanRG" "BaboRG")
 
 # NGINX
@@ -54,8 +54,8 @@ nginxReplicaCount=3
 # Azure DNS
 dnsZoneName="babosbird.com"
 dnsZoneResourceGroupName="dnsresourcegroup"
-httpSubdomain="tanopenaihttp"
-grpcSubdomain="tanopenaigrpc"
+httpSubdomain="BetaOpenAIhttp"
+grpcSubdomain="BetaOpenAIgrpc"
 
 # Certificate Manager
 certManagerNamespace="cert-manager"

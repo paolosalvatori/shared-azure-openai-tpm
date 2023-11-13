@@ -19,7 +19,7 @@ select option in "${options[@]}"; do
       break
     ;;
     "Production")
-      url='https://tanopenaihttp.babosbird.com/openai/chat'
+      url='https://BetaOpenAIhttp.babosbird.com/openai/chat'
       break
     ;;
     "Quit")
