@@ -444,7 +444,7 @@ The `appsettings.Development.json` file contains additional settings specific to
   "ChatCompletionsOptions": {
     "Temperature": 0.8,
     "MaxTokens": 16000
-  },
+  },BetaOpenAi
   "Prometheus": {
     "Enabled": true,
     "Histograms": {
@@ -468,8 +468,8 @@ The `appsettings.Development.json` file contains additional settings specific to
   "AzureOpenAI": {
     "SystemPrompt": "The assistant is helpful, creative, clever, and very friendly.",
     "Services": {
-      "BlueOpenAI": {
-        "Endpoint": "https://blueopenai.openai.azure.com/",
+      "AlphaOpenAI": {
+        "Endpoint": "https://alphaopenai.openai.azure.com/",
         "ApiKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         "Type": "azure",
         "Version": "2023-08-01-preview",
@@ -478,8 +478,8 @@ The `appsettings.Development.json` file contains additional settings specific to
         "MaxResponseTokens": 1000,
         "MaxRetries": 3
       },
-      "RedOpenAi": {
-        "Endpoint": "https://redopenai.openai.azure.com/",
+      "BetaOpenAi": {
+        "Endpoint": "https://betaopenai.openai.azure.com/",
         "ApiKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         "Type": "azure",
         "Version": "2023-08-01-preview",
@@ -491,8 +491,8 @@ The `appsettings.Development.json` file contains additional settings specific to
     }
   },
 "TenantAzureOpenAIMappings": {
-    "contoso": "BlueOpenAI",
-    "fabrikam": "RedOpenAi"
+    "contoso": "AlphaOpenAI",
+    "fabrikam": "BetaOpenAi"
   }
 }
 ```
